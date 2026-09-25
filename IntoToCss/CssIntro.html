@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Css Selection Types */
+        /* Selection by element name */
+        h1{color: rgb(138, 48, 63) !important;}
+
+        /* make a code domant or bring it back to life with ctrl/ */
+        /* h1{color: rgb(138, 48, 63) !important;} */
+        p{
+            background-color: yellow;
+        }
+        /* class */
+        .ParaTwo{background-color: beige;}
+
+        #Para3{
+            background-color: aquamarine;
+            font-size: 18px;
+            color: red;
+        }
+
+        /* unversial selector */
+        /* *{
+            background-color: rgb(241, 214, 219); */
+        
+        
+        /* descendant selector */
+        .Box1{
+            width: 400px;
+            background-color: aquamarine;
+        }
+       
+        /* Child selector */
+        .Box1 p{
+            background-color: aquamarine;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div class="Box1"> 
+        <h2>Welcome to my box</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eligendi quas officia repellendus, eveniet veritatis laudantium nostrum temporibus laborum accusantium aperiam qui animi dolores inventore quae sit quo quasi? Voluptate!<p>
+    </div>
+
+    <!-- inline styling -->
+    <h1 style="color: rgba(150, 78, 192, 0.658); background-color: black; font-size: 40px;">Welcome to CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, neque dolore possimus laborum facilis hic soluta, provident totam eligendi vero a, recusandae ut adipisci nisi? Quod saepe tempora voluptatum nobis.</p>
+    <p class="ParaTwo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio architecto voluptate, sunt harum necessitatibus atque minus aspernatur maiores in nemo fugiat amet vitae consectetur officia maxime eligendi rem non deserunt.</p>
+    <p id="Para3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam nihil voluptas, sit earum illum laborum tenetur vitae voluptatum, excepturi totam minima esse, cumque inventore aperiam corporis aliquid dolor quis temporibus.</p>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+}
+/* RGB color coding system : Red, green, blue */
+
+p{
+    color: rgb(66, 5, 16);
+}
+
+/* hexadecimal color coding system */
+#con1{
+    height: 200px;
+    width: 500px;
+    background-color: #0F0;
+    
+}
+#con2 h1{
+    color: hsl(124, 100%, 50%);
+    color: hsl(224, 100%, 50%);
+    color: hsl(324, 100%, 50%);
+}
+/* HSL color codes: Hue, Saturation and light */
+

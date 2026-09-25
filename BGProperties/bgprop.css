@@ -1,0 +1,9 @@
+/* CSS Background properties */
+.img1{
+    background-color: rgb(17, 17, 46);
+    height: 500px;
+    background-image: url(/imgForWebDev/farrinni-bsLL9zXvv3k-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

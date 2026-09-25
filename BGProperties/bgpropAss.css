@@ -1,0 +1,19 @@
+.schoolimg1{
+    background-color:rgb(10, 10, 37) ;
+    height: 500px;
+    background-image:url(/SchoolPagephotos/pexels-freestockpro-7807854.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.schoolimg2{
+    background-color:rgb(10, 10, 37) ;
+    height: 500px;
+    background-image:url(/SchoolPagephotos/pexels-mikhail-nilov-8923967.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 40px;
+    color: rgb(9, 9, 34);
+}
