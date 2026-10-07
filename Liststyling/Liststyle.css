@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    /* border: 2px solid red; */
+    width: 50%;
+    background-color: coral;
+    list-style-type: none;
+    padding: 10px;
+    margin: auto;
+}
+
+ul li{
+    /* border: 2px solid green; */
+    background-color: rgb(249, 184, 160);
+    padding: 20px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+ol{
+    /* border: 2px solid red; */
+    width: 50%;
+    background-color: rgb(115, 255, 80);
+    list-style-type: none;
+    padding: 10px;
+    margin: auto;
+}
+
+ol li{
+    /* border: 2px solid green; */
+    background-color: rgb(172, 209, 147);
+    padding: 20px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.list2{
+    padding-top: 30px;
+}

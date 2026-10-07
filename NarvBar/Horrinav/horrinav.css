@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 800px;
+    background-image: url(../../SchoolPagephotos/slide-caption-image-1-599x596.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: right;
+    border: 2px solid red;
+}
+
+nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    /* justify-content:center ; */
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.logo{
+    padding-top: 25px;
+}
+
+.centerNav{
+    padding-top: 25px;
+}
+ 
+.centerNav a{
+    margin-left: 60px;
+}
+
+.navEnd{
+    padding-top: 25px;
+}
+
+/* .active{
+    color: orange;
+} */
+
+.centerNav a:hover{
+    color: orange
+}

@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    background-color: blue;
+    padding-top: 45px;
+    border-style: solid;
+    
+}
+
+/* nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(31, 31, 82);
+    text-align: center;
+    padding-top: 35px;
+} */
+
+main{
+    height: 350px;
+    width: 100%;
+    background-color:rgb(228, 150, 148);
+    border-style: solid;
+    
+}
+
+/* section{
+height: 100%;
+width: 100%;
+background-color: rgb(27, 61, 27);
+} */
+        
+/* aside{
+        height: 100px;
+        width: 100%;
+        background-color: olive;
+        } */
+
+.sec1{
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(122, 184, 104); */
+    float: left;
+    text-align: center;
+    padding-top: 150px;
+    border-right: solid;
+    
+    }
+
+.sec2{ 
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(25, 70, 53);  */
+    float: left;
+    text-align: center;
+    padding-top: 150px;
+    border-right: solid;
+    
+    }
+
+.sec3{
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(43, 117, 43);  */
+    float: right;
+    text-align: center;
+    padding-top: 150px;
+    }
+
+footer{
+    height: 150px;
+     /* width: 100%; */
+    background-color: rgb(6, 49, 105);
+    clear: both;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 30px;
+    border-style: solid;
+    }

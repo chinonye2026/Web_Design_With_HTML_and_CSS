@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+#schImg1{
+    height: 500px;
+    background-color: rgb(21, 3, 39);
+    background-image: url(../../SchoolPagephotos/pexels-freestockpro-7807854.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.para{
+    margin: 20px;
+    text-align: justify;
+}
+
+/* First Box Styling  */
+
+#Structure2{
+    padding:20px ;
+    background-color: rgb(206, 130, 143);
+    margin-bottom: 20px;
+}
+
+#Structure2 h2{
+    /* font-size: 40px; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#Structure2 p{
+    text-align: justify;
+}
+
+/* Second Box Styling */
+
+#Structure3{
+    padding:20px 20px 0px 20px;
+    margin-bottom: 20px;
+}
+
+#Structure3 h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#Structure3 p{
+    text-align: justify;
+}
+
+/* #box a{
+    display: block;
+    display: inline-block;
+    background-color: blueviolet;
+} */
+
+.link{
+    background-color: rgb(224, 151, 224);
+    padding: 10px 150px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.link a{
+    text-decoration: underline;
+    color: black;
+    margin-left: 50px;
+}
+/* #link{
+   background-color:  rgb(224, 151, 224);
+    padding: 10px 150px; 
+}
+#link a{
+  text-decoration: underline;
+    color: black;
+    margin-left: 50px;
+} */
+
+/* My Third Box Styling */
+#Structure4{
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 20px;
+}
+#Structure4 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#Structure4 p{
+    text-align: justify;
+}
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify;
+}

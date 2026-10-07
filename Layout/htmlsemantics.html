@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <style>
+        /* use the universial selector with is an asterics */
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        header{
+            height: 100px;
+            width: 100%;
+            font-size: 40px;
+            text-align: center;
+            background-color: blue;
+        }
+        nav{
+            height: 100px;
+            width: 100%;
+            background-color: olive;
+        }
+        main{
+            height: 500px;
+            width: 100%;
+            background-color:orange;
+        }
+        /* section{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(27, 61, 27);
+        } */
+        /* aside{
+            height: 100px;
+            width: 100%;
+            background-color: olive;
+        } */
+        .sec1{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(70, 70, 25);
+            float: left;
+        }
+        .sec2{
+           height: 100%;
+            width: 50%;
+            background-color: rgb(25, 70, 53); 
+            float: right;
+        }
+        footer{
+            height: 100px;
+            /* width: 100%; */
+            background-color: rgb(194, 194, 142);
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+
+        <header>header</header>
+        <nav>nav</nav>
+        <main>
+            <section class="sec1">section1</section>
+            <section class="sec2">section2</section>
+            <!-- <aside></aside> -->
+             <!-- study Aside and findout the behavior in relation to other HTML semantics -->
+        </main>
+    <footer>footer</footer>
+
+    </div>
+    
+</body>
+</html>
